@@ -10,16 +10,3 @@ window.onload = function () {
   const users = getUserIds();
   document.querySelector("body").innerText = `There are ${users.length} users`;
 };
-// ----------------------
-// Longest Consecutive Streak
-// ----------------------
-
-export const getLongestStreak = (songs) => {
-  if (!songs.length) return null;
-
-  let longest = { song: "", length: 0 };
-  let currentSong = null;
-  let currentCount = 0;
-
-  return longest;
-};
